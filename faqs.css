@@ -1,0 +1,37 @@
+body{
+    background: url(./pexels-roacunha-2531608.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+    display: block;
+    margin-left: 500px;
+}
+a {
+    text-decoration: none;
+}
+button:hover {
+    background-color: #6d746e;
+}

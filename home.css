@@ -1,0 +1,72 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    background: url(./pexels-bosichong-28544350.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.main h1{
+    color: rgb(77, 73, 73);
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.main p{
+    color: rgb(64, 62, 62);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main button{
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    display: block;
+}
+.main button:hover{
+    background-color: #5b5058;
+    color: white;
+}
+
